@@ -1,0 +1,145 @@
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+/* Nab bar design start here */
+
+.nab-logo{
+    text-align: left;
+}
+
+.nab-heading h1{
+    text-align: right;
+}
+ .nab-manu{
+     flex-direction: row;
+     justify-content: flex-end;
+
+
+ }
+
+ .nab-manu a{
+     padding: 5px 10px;
+     margin: 20px 5px;
+     border-left: 5px;
+     background-color: transparent;
+ }
+
+ /* Nabbar desigh end here */
+
+
+ /* profile design start here */
+
+ .profile .top-weather-icon{
+     
+     
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform  2s;
+}
+
+.profile .top-weather-icon:hover{
+width: 140px;
+}
+
+
+.profile .bottom-weather-icon{
+    bottom: 20px; 
+    left: 140px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+}
+
+ 
+
+
+.profile-des p{
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+ /* profile design ends here */
+
+ /* aboutme start */
+ .aboutme-image{
+margin-top: 100px;
+}
+
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+
+
+ /* aboutme end  */
+
+
+ /* professional-experience start */
+
+ .professional-experience{
+     padding: 1% 10px;
+ }
+ /* professional-experience End */
+
+/* contact start */
+
+.achivement{
+    padding-right: 20px;
+}
+
+
+.contact button{
+    
+    width: 150px;
+}
+
+.contact-links{
+    position: relative;
+}
+
+.media-buttons{
+    margin-top: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Contact End */
+
+
+/* footer start */
+.footer-manu{
+    margin-top: 12px;
+    
+
+}
+
+.footer-manu a{
+    display: inline;
+    margin: 10px;
+    
+}
+
+/* foter end */
